@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0f0f0f;
+    background-image: url("");
+    background-size: cover;
+    background-position: 50% 50%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestPvP - Owners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'Monocraft';
+            src: url('Monocraft.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #0f0f0f;
+            color: white;
+            font-family: 'Monocraft', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .content {
+            text-align: center;
+            z-index: 1;
+        }
+
+        .round {
+            border-radius: 50%;
+            box-shadow: 0 0 9px #a494b9;
+            width: 165px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .button {
+            background-color: #0f0f0f;
+            border-radius: 30px;
+            border: 1px solid white;
+            color: white;
+            padding: 10px 30px;
+            font-size: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #3d3d3d;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="content">
+        <img src="royz.jpg" alt="royz" class="round">
+        <h1>royz | bio</h1>
+        <p>mc.testpvp.su</p>
+        <a href="https://royz.guru/status.html" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-windows"></i></a>
+        <a href="https://dsc.gg/testhvh" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-discord"></i></a>
+        <a href="https://t.me/royzdev" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-telegram"></i></a>
+        <a href="https://t.me/royzdev" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-vk"></i></a>
+    </div>
+
+    <audio autoplay>
+      <source src="music.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио или произошла ошибка сайта.
+    </audio>
+    
+    <script src="particles.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
