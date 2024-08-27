@@ -1,0 +1,15 @@
+.gradientText {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #caa256 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    animation: animated_gradient_text 12s ease-in-out infinite;
+    -moz-animation: animaanimated_gradient_textted_text 12s ease-in-out infinite;
+    -webkit-animation: animated_gradient_text 12s ease-in-out infinite;
+  }
+
+  @keyframes animated_gradient_text {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
