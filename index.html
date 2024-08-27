@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>TestPvP - Founder</title>
+    <title>t.me/royzdev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         @font-face {
-            font-family: 'Monocraft';
-            src: url('Monocraft.ttf') format('truetype');
+            font-family: 'HussarBoldWeb.otf';
+            src: url('HussarBoldWeb.otf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
 
         body {
-            background-color: #0f0f0f;
-            color: white;
-            font-family: 'Monocraft', sans-serif;
+            background-color: #7a7a7a;
+            color: rgb(231, 231, 231);
+            font-family: 'HussarBoldWeb.otf', sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -30,11 +30,11 @@
 
         #particles-js {
             position: absolute;
-            width: 100%;
-            height: 100%;
+            width: 150%;
+            height: 150%;
             top: 0;
             left: 0;
-            z-index: -1;
+            z-index: -2;
         }
 
         .content {
@@ -43,11 +43,11 @@
         }
 
         .round {
-            border-radius: 50%;
-            box-shadow: 0 0 9px #a494b9;
-            width: 165px;
+            border-radius: 75%;
+            box-shadow: 0 0 9px #645abe;
+            width: 175px;
             display: block;
-            margin: 20px auto;
+            margin: 25px auto;
         }
 
         .button {
@@ -81,22 +81,40 @@
 </head>
 <body>
     <div id="particles-js"></div>
+    <div id="border.css"></div>
     <div class="content">
-        <img src="royz.jpg" alt="royz" class="round">
-        <h1>royz | bio</h1>
-        <p>mc.testpvp.su</p>
-        <a href="https://royz.guru/status.html" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-windows"></i></a>
-        <a href="https://dsc.gg/testhvh" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-discord"></i></a>
-        <a href="https://t.me/royzdev" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-telegram"></i></a>
-        <a href="https://t.me/royzdev" target="_blank" style="color: #a494b9; font-size: 24px;"><i class="fab fa-vk"></i></a>
-    </div>
+        <img src="royzdev.jpg" alt="royzdev" class="round">
+        <h1 class="gradientText">@royzdev</h1>
+
+        <style>
+        .gradientText {
+          background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #caa256 100%);
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-size: 300%;
+          animation: animated_gradient_text 12s ease-in-out infinite;
+          -moz-animation: animaanimated_gradient_textted_text 12s ease-in-out infinite;
+          -webkit-animation: animated_gradient_text 12s ease-in-out infinite;
+        }
+        
+        @keyframes animated_gradient_text {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        </style>
+        <p>discord.gg/ - uebok</p>
+        <a href="https://t.me/royzdev" target="_blank" style="color: #51b5dd; font-size: 24px;"><i class="fab fa-telegram"></i></a>
+        <a href="https://dsc.gg/testhvh" target="_blank" style="color: #566fb6; font-size: 24px;"><i class="fab fa-discord"></i></a>
+        <a href="https://music.yandex.ru/users/nphne-tx2mvuur/playlists/1001" target="_blank" style="color: #61af7f; font-size: 24px;"><i class="fab fa-spotify"></i></a>
 
     <audio autoplay>
-      <source src="music.mp3" type="audio/mpeg">
-      Ваш браузер не поддерживает аудио или произошла ошибка сайта.
+      <source src="royzdev-love.mp3" type="audio/mpeg">
+      Ваш браузер не поддерживает аудио или произошла ошибка сайта. By RoyzDev
     </audio>
     
     <script src="particles.min.js"></script>
     <script src="app.js"></script>
+    <script src="time.js"></script>
 </body>
 </html>
