@@ -108,6 +108,28 @@
       Ваш браузер не поддерживает аудио или произошла ошибка сайта. By RoyzDev
     </audio>
     
-    <script src="particles.min.js"></script>
+    <script>  
+      document.oncontextmenu = function() {  
+      return false;  
+      };  
+      document.onkeydown = function(e) {  
+      if (e.keyCode == 123) {  
+      return false;  
+      }  
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {  
+      return false;  
+      }  
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {  
+      return false;  
+      }  
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {  
+      return false;  
+      }  
+    
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {  
+      return false;  
+      }  
+      }  
+    </script>
 </body>
 </html>
